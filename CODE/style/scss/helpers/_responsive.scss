@@ -1,0 +1,31 @@
+/*
+    /////////////////////
+        Responsive
+    /////////////////////
+*/
+
+$laptop:  1100px;
+$tap:  708px;
+$mobile:  550px;
+$small-mobile:  480px;
+
+@mixin laptop {
+    @media (max-width: #{$laptop}) {
+        @content;
+    }
+}
+@mixin tap {
+    @media (max-width: #{$tap}) {
+        @content;
+    }
+}
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+@mixin small-mobile {
+    @media (max-width: #{$small-mobile}) {
+        @content;
+    }
+}

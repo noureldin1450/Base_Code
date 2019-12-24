@@ -1,0 +1,24 @@
+.content{
+    width: 100%;
+    margin: auto;
+
+    h1{
+        padding-top: 21%;
+        font-size: 3rem;
+
+        @include mobile(){
+            font-size: 2rem;
+            padding-top: 12rem;
+        }
+    }
+    p{
+        width: 70%;
+        margin: auto;
+        padding-top: 2rem;
+
+        @include mobile(){
+            width: 90%;
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+
+/*
+    /////////////////////
+        reset
+    /////////////////////
+*/
+//Website Reset And Fix
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: $mainfont;
+    background: $white-color;
+    color: $black-color;
+}
+ul,li{
+    list-style: none;
+}
+//Adding colors
+h1,h2,h3,h4,p,a{
+    color: $black-color;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;   
+}
