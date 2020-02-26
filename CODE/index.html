@@ -5,9 +5,10 @@
 
         <!----SEO---->
         <title> HOME PAGE TITLE </title>
-        <meta name="keywords" seo,seo,seo>
+        <meta name="author" content="Noureldin">
+        <meta name="keywords" content="word, word2, word3">
         <meta name="description" content="Website content description for seo">
-        <link rel="shortcut icon" type="image/png" href="/imges/favicon/favicon.ico">
+        <link rel="shortcut icon" type="image/png" href="/images/favicon/favicon.ico">
 
         <!--OG-->
         <meta property="og:type" content="website"/>
@@ -20,21 +21,23 @@
 
         <!----Adding Style---->
         <link rel="stylesheet" href="style/scss/layout/homepage.css">
-                
+
         <!----Responsive---->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
-        <!----Mobile Theme Color ---->
+        <!---- Browser tap color ---->
         <!-- Chrome, FireFox OS Opera -->
         <meta name="theme-color" content="#212121">
-
         <!-- Windows Phone -->
         <meta name="msapplication-navbutton-color" content="#212121">
-
         <!-- Safari/Ios -->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <!---- Browser tap color end ---->
+        <!-- 
+            if you want your site to have a pwa search for "manifest generator" it will give you a manifest.json file and a link tag for it ex:<link rel="manifest" href="/manifest.json">
+        -->
     </head>
     <body>
         
@@ -52,7 +55,6 @@
             Website End 
         -->
 
-
         <!---- JS and JQ Codes ---->
         <!--[if lt IE 9]>
             <script src="js/html5shiv.min.js"></script>
@@ -62,7 +64,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 
         <!---- Smoth Scrolling Effect ---->
-
         <!--
         <script src="js/jquery.nicescroll.min.js"></script>
         <script>
@@ -82,14 +83,7 @@
         </script>              
         -->
 
-        <!----
-            Scrolling Effect
-                whene you click on any link it make it smother to go to it's des 
-        ---->
-        <script src="js/smothscrlling.js"></script>
-
         <!---Main JS Code -->
-        <script src="js/main.js"></script>
-
+        <script src="js/app.js"></script>
     </body>
 </html>
