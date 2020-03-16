@@ -1,10 +1,7 @@
 
 /*
-    /////////////////////
-        reset
-    /////////////////////
+Website Reset And Fix
 */
-//Website Reset And Fix
 *{
     padding: 0;
     margin: 0;
@@ -17,6 +14,7 @@ html,body{
     font-family: $mainfont;
     background: $white-color;
     color: $black-color;
+    scroll-behavior: smooth;
 }
 ul,li{
     list-style: none;
